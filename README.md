@@ -1,3 +1,13 @@
+This project developed using Mobile Phone
+
+-----------------------------------
+## Tech Stack:
+    HTML, CSS JAVASCRIPT, TAILWINDCSS
+    Termux
+    Gemini CLI 
+    Acode
+
+
 <h2>Demo Accounts</h2>
 
 <table>
