@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome to Chatly</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    .animate-fade-in {
+      animation: fadeIn 1s ease-out forwards;
+    }
+  </style>
+</head>
+<body class="bg-indigo-600 h-screen flex items-center justify-center text-white overflow-hidden">
+
+  <div class="text-center animate-fade-in">
+    <!-- Logo -->
+    <div class="w-24 h-24 bg-white rounded-3xl mx-auto mb-8 flex items-center justify-center shadow-2xl">
+      <svg xmlns="http://www.w3.org/2000/svg" class="w-14 h-14 text-indigo-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+          d="M8 10h.01M12 10h.01M16 10h.01M21 12c0 4.418-4.03 8-9 8a9.77 9.77 0 01-4-.8L3 20l1.8-4A7.96 7.96 0 013 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />
+      </svg>
+    </div>
+
+    <h1 class="text-3xl sm:text-4xl font-bold mb-4">Chatly</h1>
+    <p class="text-base sm:text-lg mb-12 opacity-80">Privacy-focused messaging for everyone.</p>
+
+    <div class="space-y-4">
+      <div class="w-12 h-1 bg-white/20 mx-auto rounded-full"></div>
+      <p class="text-sm font-medium tracking-widest uppercase opacity-50">Secure • Fast • Simple</p>
+    </div>
+  </div>
+
+  <script>
+    // Redirect to index after 2.5 seconds
+    setTimeout(() => {
+      window.location.href = 'index.html';
+    }, 2500);
+  </script>
+</body>
+</html>
