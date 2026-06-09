@@ -7,7 +7,6 @@
     Gemini CLI 
     Acode
 
- 
 <h2>Demo Accounts</h2>
  
 <table>
